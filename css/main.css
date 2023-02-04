@@ -521,6 +521,14 @@ video {
   margin: 1.5rem;
 }
 
+.m-0 {
+  margin: 0px;
+}
+
+.m-4 {
+  margin: 1rem;
+}
+
 .mx-3 {
   margin-left: 0.75rem;
   margin-right: 0.75rem;
@@ -554,6 +562,14 @@ video {
 
 .mt-2 {
   margin-top: 0.5rem;
+}
+
+.mt-0 {
+  margin-top: 0px;
+}
+
+.mb-20 {
+  margin-bottom: 5rem;
 }
 
 .box-border {
@@ -600,12 +616,36 @@ video {
   width: 3.5rem;
 }
 
+.w-40 {
+  width: 10rem;
+}
+
 .flex-row {
   flex-direction: row;
 }
 
 .flex-col {
   flex-direction: column;
+}
+
+.place-content-end {
+  place-content: end;
+}
+
+.place-items-end {
+  place-items: end;
+}
+
+.place-items-center {
+  place-items: center;
+}
+
+.content-end {
+  align-content: flex-end;
+}
+
+.items-end {
+  align-items: flex-end;
 }
 
 .items-center {
@@ -620,12 +660,28 @@ video {
   justify-content: center;
 }
 
+.justify-between {
+  justify-content: space-between;
+}
+
 .justify-around {
   justify-content: space-around;
 }
 
+.justify-evenly {
+  justify-content: space-evenly;
+}
+
+.justify-self-center {
+  justify-self: center;
+}
+
 .overflow-x-hidden {
   overflow-x: hidden;
+}
+
+.scroll-auto {
+  scroll-behavior: auto;
 }
 
 .scroll-smooth {
@@ -669,6 +725,10 @@ video {
   background-attachment: scroll;
 }
 
+.fill-blue-500 {
+  fill: #3b82f6;
+}
+
 .object-cover {
   -o-object-fit: cover;
      object-fit: cover;
@@ -676,6 +736,10 @@ video {
 
 .p-1 {
   padding: 0.25rem;
+}
+
+.p-4 {
+  padding: 1rem;
 }
 
 .px-6 {
@@ -688,8 +752,16 @@ video {
   padding-bottom: 0.5rem;
 }
 
+.pb-10 {
+  padding-bottom: 2.5rem;
+}
+
 .text-center {
   text-align: center;
+}
+
+.align-middle {
+  vertical-align: middle;
 }
 
 .font-inter {
@@ -737,6 +809,11 @@ video {
 
 .text-7xl {
   font-size: 4.5rem;
+  line-height: 1;
+}
+
+.text-5xl {
+  font-size: 3rem;
   line-height: 1;
 }
 
@@ -801,6 +878,14 @@ video {
     left: 800px;
   }
 
+  .tablet\:h-16 {
+    height: 4rem;
+  }
+
+  .tablet\:w-16 {
+    width: 4rem;
+  }
+
   .tablet\:translate-y-\[-19px\] {
     --tw-translate-y: -19px;
     transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -825,6 +910,10 @@ video {
     height: 100%;
   }
 
+  .hd\:h-20 {
+    height: 5rem;
+  }
+
   .hd\:w-64 {
     width: 16rem;
   }
@@ -833,8 +922,16 @@ video {
     width: 3.5rem;
   }
 
+  .hd\:w-20 {
+    width: 5rem;
+  }
+
   .hd\:flex-row {
     flex-direction: row;
+  }
+
+  .hd\:flex-col {
+    flex-direction: column;
   }
 
   .hd\:text-4xl {
